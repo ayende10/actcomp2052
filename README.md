@@ -1,2 +1,0 @@
-# COMP2052Jueves
- 
