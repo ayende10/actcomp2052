@@ -18,7 +18,7 @@ def mensaje():
     if not datos or 'mensaje' not in datos:
         return jsonify({"error": "Falta el campo 'mensaje' en el cuerpo JSON"}), 400
     mensaje_recibido = datos['mensaje']
-    respuesta = f"Recibido tu mensaje: '{mensaje_recibido}'. Gracias por usar la aplicacion!"
+    respuesta = f"{mensaje_recibido}."
     return jsonify({"respuesta": respuesta})
 
 # Ejecución del servidor
